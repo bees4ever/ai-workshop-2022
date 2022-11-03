@@ -38,8 +38,8 @@ Check if there was a failure of the surveillance camera. In this case, the image
 A valuable teddy bear was stolen from the shopping mall. Witnesses have seen the thief with the teddy bear in his arms. Your task is to search the surveillance camera images in an automated way to hand over a picture of the person to the police.
 To do this, extract all the crops with a teddy bear. Find the thief by overlapping the bounding boxes of the teddy bear and the person.
 
-6. #### Train own YOLO model to detect face covered persons
-In this task you will be asked to (TODO)
+6. #### Train own YOLO model 
+In this task you will be asked to Train own YOLO model to detect face covered persons and seperate them from "normal" persons. For this purpose a labeled dataset has been created which contains two labels: `Masked` and `Person` and the corresponding images.  This annotations are object based marked. In the colab you will see an example plot. The idea is to reach a certain recall score by training first with standart hyperparameter and then also adjust the hyperparameter a bit.
 
 ### General Hints
 
