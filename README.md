@@ -22,9 +22,13 @@ The last task will be the hardest. You will be asked to finetune an own YOLO mod
 1. #### Get to know Yolov3
 Before we start identifying the thieves, in this task we deal with everything around Yolov3. This tool is enormously helpful to identify elements in an image like persons. Pre-trained models already provide the ability to identify people. In the last task we will see that it is also possible to adapt the existing models to the use case. In order to understand and use Yolov3, we can now examine the created crops, the list of all identified classes and the bounding boxes of an object.
 
+Colab: https://github.com/bees4ever/ai-workshop-2022/blob/main/YOLO_Workshop_Capgemini_2022_Exercise_01_ready.ipynb
+
 2. #### Burglary at night in a shopping mall
 There was a burglary at night in the shopping center. There were no other people in the building at the time of the burglary. A surveillance camera recorded images of the shopping mall. Your task is to automatically scan the images from the surveillance camera and mark the people who are alone in the mall as suspicious.
 To do this, count the number of people per image and plot a time graph to analyze the mall's occupancy. Extract the images of the people who were alone in the mall.
+
+Colab: https://github.com/bees4ever/ai-workshop-2022/blob/main/YOLO_Workshop_Capgemini_2022_Exercise_02_ready.ipynb
 
 3. #### Spies in the shopping mall 
 According to the intelligence service, there was a spy in the shopping center during regular opening hours. This spy was conspicuously dressed. You are to automatically analyze the images of the surveillance camera for conspicuously dressed persons. The image of the suspicious person is to be handed over to the intelligence service.
