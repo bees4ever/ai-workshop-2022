@@ -43,7 +43,7 @@ Colab: https://github.com/bees4ever/ai-workshop-2022/blob/main/colabs/YOLO_Works
 According to the intelligence service, there was a spy in the shopping center during regular opening hours. This spy was conspicuously dressed. You are to automatically analyze the images of the surveillance camera for conspicuously dressed persons. The image of the suspicious person is to be handed over to the intelligence service.
 To do this, create the crops of all the people and then extract the three most common colors in the image. If a conspicuous color occurs frequently, it is a suspicious person.
 
-Colab:  TODO
+Colab: https://github.com/bees4ever/ai-workshop-2022/blob/main/colabs/YOLO_Workshop_Capgemini_2022_Exercise_02_ready.ipynb
 
 4. #### Cyber attack on the surveillance system
 Over the weekend, there was an attack on the surveillance system to break into the shopping center. The police found traces of burglary. So far, it has not been determined if anything was stolen.
