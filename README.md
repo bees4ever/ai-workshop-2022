@@ -24,7 +24,7 @@ The last task will be the hardest. You will be asked to fine tune an own YOLO mo
 
 ### Exercises
 
-1. #### Get to know Yolov3
+0. #### Get to know Yolov3
 Before we start identifying the thieves, in this task we deal with everything around Yolov3. This tool is enormously helpful to identify elements in an image like persons. Pre-trained models already provide the ability to identify people. In the last task we will see that it is also possible to adapt the existing models to the use case. In order to understand and use Yolov3, we can now examine the created crops, the list of all identified classes and the bounding boxes of an object.
 
 <img src="doc/img/yolo_architecture.png" width="300">
@@ -33,31 +33,31 @@ Before we start identifying the thieves, in this task we deal with everything ar
 
 Colab: https://colab.research.google.com/drive/1w-qOd_oJOmqO3zqV0w5Aelk1Rrf9qTjW?usp=sharing
 
-2. #### Burglary at night in a shopping mall
+1. #### Burglary at night in a shopping mall
 There was a burglary at night in the shopping center. There were no other people in the building at the time of the burglary. A surveillance camera recorded images of the shopping mall. Your task is to automatically scan the images from the surveillance camera and mark the people who are alone in the mall as suspicious.
 To do this, count the number of people per image and plot a time graph to analyze the mall's occupancy. Extract the images of the people who were alone in the mall.
 
 Colab: https://colab.research.google.com/drive/19UUzYaKz-bjaSsmi3eXKHxCEa1hAcKDk?usp=sharing
 
-3. #### Spies in the shopping mall 
+2. #### Spies in the shopping mall 
 According to the intelligence service, there was a spy in the shopping center during regular opening hours. This spy was conspicuously dressed. You are to automatically analyze the images of the surveillance camera for conspicuously dressed persons. The image of the suspicious person is to be handed over to the intelligence service.
 To do this, create the crops of all the people and then extract the three most common colors in the image. If a conspicuous color occurs frequently, it is a suspicious person.
 
 Colab: https://colab.research.google.com/drive/1piul7wvdzJeJVpBBzdQ3knO7XFLqavKw?usp=sharing
 
-4. #### Cyber attack on the surveillance system
+3. #### Cyber attack on the surveillance system
 Over the weekend, there was an attack on the surveillance system to break into the shopping center. The police found traces of burglary. So far, it has not been determined if anything was stolen.
 Check if there was a failure of the surveillance camera. In this case, the image freezes. Analyze automatically whether there were any conspicuous persons in the building before or after the failure.
 
-Colab: https://colab.research.google.com/drive/1GFR606QSsJ_ns0E5Rqlsn-_3Xtjd2fNt?usp=sharing
+Colab:  https://colab.research.google.com/drive/1KKXseDCDwWvSAQGJ2_Ru9hpPYyRSajZu?usp=sharing
 
-5. #### Theft of a branded teddy bear
+4. #### Theft of a branded teddy bear
 A valuable teddy bear was stolen from the shopping mall. Witnesses have seen the thief with the teddy bear in his arms. Your task is to search the surveillance camera images in an automated way to hand over a picture of the person to the police.
 To do this, extract all the crops with a teddy bear. Find the thief by overlapping the bounding boxes of the teddy bear and the person.
 
-Colab: https://github.com/bees4ever/ai-workshop-2022/blob/main/colabs/YOLO_Workshop_Capgemini_2022_Exercise_04_ready.ipynb
+Colab: https://colab.research.google.com/drive/1GFR606QSsJ_ns0E5Rqlsn-_3Xtjd2fNt?usp=sharing
 
-6. #### Train own YOLO model 
+5. #### Train own YOLO model 
 In this task you will be asked to Train own YOLO model to detect face covered persons and seperate them from "normal" persons. For this purpose a labeled dataset has been created which contains two labels: `Masked` and `Person` and the corresponding images.  This annotations are object based marked. In the colab you will see an example plot. The idea is to reach a certain recall score by training first with standart hyperparameter and then also adjust the hyperparameter a bit.
 
 Colab: https://colab.research.google.com/drive/1vM6y0fqkSePfSwR-gZodslzg-DD3LqGh?usp=sharing
