@@ -31,7 +31,7 @@ Before we start identifying the thieves, in this task we deal with everything ar
 
 *(The YOLO Architeture as we know it from the presentation)*
 
-Colab: https://github.com/bees4ever/ai-workshop-2022/blob/main/colabs/YOLO_Workshop_Capgemini_2022_Exercise_00.ipynb
+Colab: https://colab.research.google.com/drive/1w-qOd_oJOmqO3zqV0w5Aelk1Rrf9qTjW?usp=sharing
 
 2. #### Burglary at night in a shopping mall
 There was a burglary at night in the shopping center. There were no other people in the building at the time of the burglary. A surveillance camera recorded images of the shopping mall. Your task is to automatically scan the images from the surveillance camera and mark the people who are alone in the mall as suspicious.
